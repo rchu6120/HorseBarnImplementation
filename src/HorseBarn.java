@@ -1,5 +1,8 @@
 public class HorseBarn {
     private Horse[] spaces;
+    public HorseBarn(Horse[] spaces) {
+        this.spaces = spaces;
+    }
     public int findHorseSpace(String name) {
         for (int i = 0; i < spaces.length; i++) {
             if (spaces[i] != null && name.equals(spaces[i].getName())) {
@@ -20,5 +23,14 @@ public class HorseBarn {
                 }
             }
         }
+    }
+    public String toString() {
+        String result = "";
+        Horse[1] = null;
+        Horse[3] = null;
+        Horse[5] = null;
+        Horse
+        }
+
     }
 }
