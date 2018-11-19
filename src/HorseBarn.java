@@ -27,7 +27,7 @@ public class HorseBarn {
     public String toString() {
         String result = "";
         for (int i= 0; i < spaces.length; i++) {
-            result = result + "[" + spaces[i] + "]";
+            result = result + "[" + spaces[i].getName() + "]";
         }
         return result;
     }
