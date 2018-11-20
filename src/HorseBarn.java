@@ -26,8 +26,13 @@ public class HorseBarn {
     }
     public String toString() {
         String result = "";
+        String horseName;
         for (int i= 0; i < spaces.length; i++) {
-            result = result + "[" + spaces[i].getName() + "]";
+            horseName = "null";
+            if (spaces[i] != null) {
+                horseName = spaces[i].getName();
+            }
+            result = result + "[" + horseName + "]";
         }
         return result;
     }
